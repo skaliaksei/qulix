@@ -129,6 +129,7 @@ body {
 .nav__list-desc:hover {
     border-top: 5px solid #fff;
     line-height: 30px;
+    transition-duration: .2s;
 }
 
 /* MAIN */
@@ -177,6 +178,7 @@ body {
 
 .main__submenu-link:hover {
     border-left: 5px solid #727989;
+    transition-duration: .3s;
 }
 
 .main__submenu-link_big {
