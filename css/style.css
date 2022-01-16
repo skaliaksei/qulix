@@ -378,6 +378,33 @@ body {
     color: #99a1b3;
 }
 
+/* BUTTONS Prev., Next */
+.main-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main-buttons__key {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: solid 1px #99a1b3;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.main-buttons__key:hover {
+    background-color: #99a1b3;
+    color: #fff;
+}
+
+.main-buttons__key span {
+    font-size: 14px;
+}
+
 /* FOOTER */
 .footer {
     display: flex;
